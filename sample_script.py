@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 x = np.arange(-4,4,0.01)*np.pi
-y = np.sin(x)*np.cos(x)**2
+y = np.sin(x)*np.cos(x**1.5)**2
 
 fig,ax = plt.subplots(nrows=1,ncols=1,figsize=(8,4))
 ax.plot(x,y,'-',color='seagreen')
