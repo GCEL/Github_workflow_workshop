@@ -20,7 +20,7 @@ x = np.arange(-4,4,0.01)*np.pi
 y = np.sin(x)*np.cos(x**1.5)**2
 
 fig,ax = plt.subplots(nrows=1,ncols=1,figsize=(8,4))
-ax.plot(x,y,'-',color=c,linestyle='--')
+ax.plot(x,y,'--',color=c)
 ax.set_xlabel('x')
 ax.set_ylabel('y')
 fig.tight_layout()
